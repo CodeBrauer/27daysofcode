@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>#100daysofcode</title>
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Fira+Sans:300" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <style type="text/css" media="screen">
+        .body {
+            font-family: 'Fira Sans', sans-serif;
+        }
+        h1, .day {
+            font-family: 'Bangers', sans-serif;
+        }
+        .day {
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>#100daysofcode by @CodeBrauer</h1>
+    <div class="days"></div>
+    <script>
+        var ajax = new XMLHttpRequest();
+        ajax.open('GET', 'https://api.github.com/repos/CodeBrauer/100daysofcode/contents/');
+        ajax.onload = function() {
+            var data = JSON.parse(ajax.responseText);
+            data.forEach(function(element) {
+                if (element.type === 'dir') {
+                    var parts = element.path.split('_');
+                    var html  = '<a href="' + element.path + '"><div class="day">' + 
+                    '<span class="num">' + parts[0] + '</span>' +
+                    '<span class="date">' + parts[1] + '</span>' + parts[2] + '</div></a>';
+                    document.querySelector('.days').innerHTML += html;
+                }
+            });
+        };
+        ajax.onerror = function() {
+            alert('Error loading GitHub API :(');
+        };
+        ajax.send();
+    </script>
+</body>
+</html>
