@@ -3,17 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <title>#100daysofcode</title>
-    <link href="https://fonts.googleapis.com/css?family=Bangers|Fira+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <style type="text/css" media="screen">
+        * {box-sizing: border-box;}
         .body {
             font-family: 'Fira Sans', sans-serif;
+            background-color: #fafafa;
+            padding: 0;
+            margin: 0;
         }
+        h1 { font-size: 50px; }
         h1, .day {
             font-family: 'Bangers', sans-serif;
+            text-align: center;
         }
         .day {
-            
+            height: 200px;
+            width: calc(25% - 30px);
+            float: left;
+            padding-top: 100px;
+            color: #fff;
+            position: relative;
+            margin: 10px 15px;
+            font-size: 24px;
+        }
+        .day span {
+            position: absolute;
+        }
+        span.num {
+            left: 10px;
+            bottom: 10px;
+            font-size: 30px;
+        }
+        span.num::before {content: '#';}
+        span.date {
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: inline-block;
+            background: black;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 30px;
+        }
+        span.lang {
+            right: 20px;
+            bottom: 10px;
+            font-size: 40px;
         }
     </style>
 </head>
@@ -25,12 +62,15 @@
         ajax.open('GET', 'https://api.github.com/repos/CodeBrauer/100daysofcode/contents/');
         ajax.onload = function() {
             var data = JSON.parse(ajax.responseText);
+            colors = ['#d25713', '#23d515', '#6520de', '#1695d4', '#0f9a19', '#6f50be', '#5da109', '#f36990', '#4ccfd5', '#219c26', '#cfce9c', '#b92134', '#15d5f6', '#95799b', '#741253', '#f91e65', '#650d9e', '#4bc15b'];
             data.forEach(function(element) {
                 if (element.type === 'dir') {
                     var parts = element.path.split('_');
-                    var html  = '<a href="' + element.path + '"><div class="day">' + 
+                    var html  = '<a href="' + element.path + '"><div class="day" style="background-color: ' + 
+                    colors[Math.floor(Math.random() * colors.length)] + '">' +
                     '<span class="num">' + parts[0] + '</span>' +
-                    '<span class="date">' + parts[1] + '</span>' + parts[2] + '</div></a>';
+                    '<span class="date">' + parts[1] + '</span>' +
+                    '<span class="lang">' + parts[2] + '</span>' + parts[3] + '</div></a>';
                     document.querySelector('.days').innerHTML += html;
                 }
             });
