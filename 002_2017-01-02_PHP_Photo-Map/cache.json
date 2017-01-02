@@ -1,0 +1,44 @@
+[
+  {
+    "image": "images/1.jpg",
+    "lat": 52.521821666667,
+    "long": 13.413393888889,
+    "date": "2017-01-02 13:18",
+    "human_location": "Berlin, Germany"
+  },
+  {
+    "image": "images/2.jpg",
+    "lat": 43.203758611111,
+    "long": 6.6233258333333,
+    "date": "2017-01-02 13:27",
+    "human_location": "Ramatuelle, France"
+  },
+  {
+    "image": "images/3.jpg",
+    "lat": 41.900962805556,
+    "long": 12.464741694444,
+    "date": "2017-01-02 13:21",
+    "human_location": "Roma, Italy"
+  },
+  {
+    "image": "images/4.jpg",
+    "lat": 49.349433333333,
+    "long": 8.1418388888889,
+    "date": "2017-01-02 13:26",
+    "human_location": "Neustadt an der Weinstraße, Germany"
+  },
+  {
+    "image": "images/5.jpg",
+    "lat": 51.248854138889,
+    "long": 17.697775666667,
+    "date": "2017-01-02 13:27",
+    "human_location": "Dziadowa Kłoda, Poland"
+  },
+  {
+    "image": "images/6.jpg",
+    "lat": 45.441829666667,
+    "long": 12.417002666667,
+    "date": "2017-01-02 13:27",
+    "human_location": "Punta Sabbioni, Italy"
+  }
+]
