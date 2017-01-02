@@ -31,11 +31,11 @@
             imageDiv.addEventListener('click', function(e) {
                 // center map to marker
                 map.panTo(new L.LatLng(
-                    e.srcElement.getAttribute('data-lat'),
-                    e.srcElement.getAttribute('data-long')
+                    e.target.getAttribute('data-lat'),
+                    e.target.getAttribute('data-long')
                 ));
                 // hightlight clicked marker
-                var target_marker = document.querySelector('img[title="'+e.srcElement.innerHTML+'"]')
+                var target_marker = document.querySelector('img[title="'+e.target.innerHTML+'"]')
                 Array.prototype.forEach.call (document.querySelectorAll('img.leaflet-marker-icon'), function(node) {
                     node.classList.remove('active');
                 });
