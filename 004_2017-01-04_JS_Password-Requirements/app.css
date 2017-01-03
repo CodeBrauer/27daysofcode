@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.muted {
+    color: #888;
+    font-size: 12px;
+}
+
+.success {
+    opacity: .3;
+    text-decoration: line-through;
+}
+
+code:empty {
+    visibility: hidden;
+}
