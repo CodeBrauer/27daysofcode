@@ -24,6 +24,9 @@ function Formsaver(selector) {
      * @return {void}
      */
     Formsaver.prototype.saveForm = function(e) {
+        if (e.target.type === 'password') {
+            return; // don't save passwords!
+        }
         localStorage.setItem('FS_' + e.target.name, e.target.value);
         if (e.target.type === 'checkbox' || e.target.type === 'radio') {
             if (!e.target.checked) {
