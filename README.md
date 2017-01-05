@@ -4,6 +4,10 @@ A repo with 100 daily small projects (from 2017-01-01 till 2017-04-17) - every d
 
 Goal: Get a better coder, face up to new challenges, improve skills!
 
+## Day 005 (PHP)
+
+[[Docs]](https://github.com/CodeBrauer/100daysofcode/005_2017-01-05_PHP_Form-Generator/README.md) - Generate HTML5 valid forms just some simple PHP lines - Take a look at the examples!
+
 ## Day #004 (JS)
 
 [[Demo]](https://codebrauer.github.io/100daysofcode/004_2017-01-04_JS_Password-Requirements/) - Simple password requirements check with minimal UI and HTML5 validation.
