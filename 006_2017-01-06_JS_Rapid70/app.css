@@ -26,8 +26,14 @@ h1, h2 {
 }
 
 header h1 {
-    font-size: 4em;
+    font-size: 10vw;
     margin: 10px auto;
+}
+
+@media screen and (min-width: 950px) {
+    header h1 {
+        font-size: 4em;
+    }
 }
 
 footer { font-size: .6em; }
