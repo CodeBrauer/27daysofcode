@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#E88565">
+    
+    <title>Rapid70</title>
+    
+    <link href="//fonts.googleapis.com/css?family=Bungee+Shade|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rapid70</h1>
+        </header>
+        <div class="message"></div>
+        <div class="game">
+            <div class="info hidden">
+                <div class="score">0</div>
+                <div class="timer">60</div>
+            </div>
+            <div class="start">
+                <div class="text">
+                    Find numbers from 1 to 70 in ascending order.<br>How far can you go in 60 sec?
+                </div>
+                <div class="btn">&#9658;</div>
+            </div>
+            <div class="gameover hidden">
+                <h2>Your Score:</h2>
+                <div class="finalscore"></div>
+                <h2>Time left:</h2>
+                <div class="finaltime"></div>
+            </div>
+            <div class="numbers hidden"></div>
+        </div>
+        <footer>
+            This is a clone written in Javscript of the smartphone Game "Rapid70".
+        </footer>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

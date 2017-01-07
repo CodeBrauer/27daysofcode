@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+    webkit-touch-callout: none;
+}
+/*default*/
+body {
+    background-color: #E88565;
+    color: #181A27;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+a { color: #181A27; }
+h1, h2 {
+    font-family: 'Bungee Shade', sans-serif;
+}
+
+/*layout*/
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 4em;
+    margin: 10px auto;
+}
+
+footer { font-size: .6em; }
+
+/*game*/
+
+.game {
+    position: relative;
+    box-sizing: content-box;
+    max-width: 350px;
+    width: 95%;
+    height: 500px;
+    margin: 20px auto 30px;
+    background-color: #181A27;
+    color: #E88565;
+    border: 3px solid #181A27;
+    box-shadow: 0px 6px 14px rgba(24, 26, 39, 0.7);
+}
+
+.start {
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.start .text {
+    line-height: 2;
+    font-size: 1em;
+}
+
+.info {
+    height: 80px;
+    background: #E88565;
+    width: 356px;
+    position: absolute;
+    left: -3px;
+    top: -83px;
+    border: 3px solid #181A27;
+    color: #181A27;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.score::before {
+    content: 'Score: '
+}
+.timer::before {
+    content: 'Time: '
+}
+
+.btn {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    margin: 60px auto 0;
+    border: 4px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    border-radius: 50%;
+    padding-left: 7px;
+    transition: transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.numbers {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.numbers > div {
+    float: left;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.numbers .out {
+    background-color: #E88565;
+}
+
+.gameover {
+    padding-top: 40px;
+}
+
+.gameover > div {
+    font-size: 6em;
+    line-height: 1;
+}
+
+/*helpers*/
+
+.hidden {
+    display: none;
+}
+
+.vhidden {
+    visibility: hidden;
+}
