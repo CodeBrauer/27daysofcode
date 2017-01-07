@@ -40,8 +40,8 @@ function getUsersVideos(pid) {
         } else {
             res.body.items.forEach(function(video, i) {
                 var html = '<div class="video"> \
-                    <a href="https://youtube.com/watch?v=' + video.snippet.resourceId.videoId + '" class="title">\
-                    <img src="http://img.youtube.com/vi/' + video.snippet.resourceId.videoId + '/maxresdefault.jpg">' + 
+                    <a href="//youtube.com/watch?v=' + video.snippet.resourceId.videoId + '" class="title">\
+                    <img src="//img.youtube.com/vi/' + video.snippet.resourceId.videoId + '/maxresdefault.jpg">' + 
                     video.snippet.title + '</a> \
                 </div>';
                 document.querySelector('.videos').innerHTML += html;
