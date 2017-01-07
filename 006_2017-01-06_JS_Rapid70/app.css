@@ -136,6 +136,10 @@ footer { font-size: .6em; }
     line-height: 1;
 }
 
+.gameover h2 {
+    margin: 0 auto;
+}
+
 .gameover a {
     color: #e88565;
     text-decoration: none;
