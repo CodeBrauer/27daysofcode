@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #65CEF6;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background: #fafafa;
+    color: #222;
+    margin: 40px auto 20px;
+    width: 100%;
+    max-width: 800px;
+    padding: 10px 20px;
+}
+
+.videos {
+    text-align: center;
+}
+
+.video {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto 20px;
+}
+
+.video img {
+    width: 100%;
+    height: auto;
+}
