@@ -1,11 +1,10 @@
 'use strict';
 
 (function() {
-    function Rapid70(selector, time) {
+    function Rapid70(selector) {
         this.heading    = document.querySelector('header h1');
         this.game       = document.querySelector(selector);
         this.numbersEl  = this.game.querySelector('.numbers');
-        this.time       = time;
         this.intro      = this.game.querySelector('.start');
         this.btn        = this.intro.querySelector('.btn');
         this.info       = this.game.querySelector('.info');
@@ -18,7 +17,7 @@
         this.selectedNumbers = [0];
 
 
-        this.setScore = function (score) {
+        this.setScore = function(score) {
             this.score.innerHTML = score;
         };
 
@@ -85,7 +84,6 @@
             elementsNum.forEach(function(el) {
                 this.tmpNumber = document.createElement('div');
                 this.tmpNumber.innerHTML = el;
-                this.tmpNumber.setAttribute('title', el);
                 this.numbersEl.appendChild(this.tmpNumber);
                 ['click', 'touchstart'].forEach(function(eventType) {
                     this.tmpNumber.addEventListener(eventType, this.numberSelect.bind(this));
@@ -103,5 +101,5 @@
 
 
     }
-    new Rapid70('.game', 60);
+    new Rapid70('.game');
 })();
