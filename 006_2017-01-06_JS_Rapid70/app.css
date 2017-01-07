@@ -126,8 +126,17 @@ footer { font-size: .6em; }
 }
 
 .gameover > div {
-    font-size: 6em;
+    font-size: 3em;
     line-height: 1;
+}
+
+.gameover a {
+    color: #e88565;
+    text-decoration: none;
+    margin-top: 30px;
+    display: inline-block;
+    border: 2px solid;
+    padding: 10px 20px;
 }
 
 /*helpers*/

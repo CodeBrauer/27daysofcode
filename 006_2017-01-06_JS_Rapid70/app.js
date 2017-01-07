@@ -13,6 +13,7 @@
         this.gameoverEl = this.game.querySelector('.gameover');
         this.finalscore = this.gameoverEl.querySelector('.finalscore');
         this.finaltime  = this.gameoverEl.querySelector('.finaltime');
+        this.highscore  = this.gameoverEl.querySelector('.highscore');
         
         this.selectedNumbers = [0];
 
@@ -54,6 +55,16 @@
             this.timer.innerHTML = (parseFloat(this.timer.innerHTML) - .1).toFixed(1) + 's';
         };
 
+        this.getHighscore = function() {
+            return localStorage.getItem('highscore');
+        };
+
+        this.setHighscore = function(score) {
+            if (this.getHighscore() < score) {
+                localStorage.setItem('highscore', score);
+            }
+        };
+
         this.gameover = function () {
             if (parseFloat(this.timer.innerHTML) > 59.8) {
                 return; // double click prevention
@@ -64,8 +75,11 @@
             this.heading.innerHTML = 'Gameover!';
             this.heading.classList.remove('vhidden');
 
+            this.setHighscore(this.score.innerHTML);
+
             this.finalscore.innerHTML = this.score.innerHTML;
             this.finaltime.innerHTML  = this.timer.innerHTML;
+            this.highscore.innerHTML  = this.getHighscore();
             this.gameoverEl.classList.remove('hidden');
         };
 
