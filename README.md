@@ -10,7 +10,7 @@ Goal: Get a better coder, face up to new challenges, improve skills!
 
 ## Day 006 (JS)
 
-[[Demo]](https://codebrauer.github.io/100daysofcode/006_2017_01_06_JS_Rapid70/) - This is a clone of the smartphone Game [Rapid70](https://play.google.com/store/apps/details?id=ab.rapid70).
+[[Demo]](https://codebrauer.github.io/100daysofcode/006_2017-01-06_JS_Rapid70/) - This is a clone of the smartphone Game [Rapid70](https://play.google.com/store/apps/details?id=ab.rapid70).
 
 ## Day 005 (PHP)
 
