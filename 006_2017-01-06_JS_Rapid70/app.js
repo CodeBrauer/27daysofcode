@@ -37,6 +37,7 @@
                 this.numbersEl.classList.add('hidden');
                 this.setScore(matchNum);
                 this.gameover();
+                return;
             }
 
             if (parseInt(selected.innerHTML) === matchNum) {
