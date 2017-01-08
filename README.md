@@ -4,6 +4,10 @@ A repo with 100 daily small projects (from 2017-01-01 till 2017-04-17) - every d
 
 Goal: Get a better coder, face up to new challenges, improve skills!
 
+## Day 008 (JS)
+
+[[Demo]](https://codebrauer.github.io/100daysofcode/008_2017-01-08_JS_HTML-Table-to-CSV) - Save a HTML table as CSV file.
+
 ## Day 007 (JS)
 
 [[Demo]](https://codebrauer.github.io/100daysofcode/007_2017-01-07_JS_YT-API-Test/) -  Today I just tested how to get the last 10 YouTube Videos from a specific channel and display them nicely.

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="theme-color" content="#FEB904">
+    
+    <title>Save HTML Table as CSV</title>
+    
+    <link href="//fonts.googleapis.com/css?family=Playfair+Display:900|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Save HTML Table as CSV</h1>
+        <p>
+            This script will search the table on the page, format all rows/cells into a CSV formatted string and download it as CSV file. The file is formatted with semicolon as delimiter and all columns are wrapped in double quotes.<br>
+            In my test, the file can be opened correctly in Excel (v2011, macOS).
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Title</th>
+                    <th>Payment Method</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>2007-06-22</td><td>Tools</td><td>Cash</td><td>15.00</td></tr>
+                <tr><td>2008-03-27</td><td>Bottle of wine</td><td>PayPal</td><td>12.00</td></tr>
+                <tr><td>2009-07-04</td><td>Trip to Las Vegas</td><td>Cash</td><td>500.00</td></tr>
+                <tr><td>2010-12-07</td><td>Repairs</td><td>Credit Card</td><td>1050.43</td></tr>
+                <tr><td>2011-05-01</td><td>Cinema Tickets</td><td>Credit Card</td><td>35.00</td></tr>
+                <tr><td>2017-01-08</td><td>Special char test</td><td>!"'§$%&;/\-_=?0</td><td>€$¥</td></tr>
+            </tbody>
+        </table>
+        <button class="save-as-csv">Save as CSV</button>
+    </div>
+    <script src="app.js"></script>
+    
+    <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-59784112-5', 'auto');ga('send', 'pageview');</script>
+</body>
+</html>
