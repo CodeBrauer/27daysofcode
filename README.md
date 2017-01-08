@@ -1,5 +1,7 @@
 # 100daysofcode
 
+Project Index: https://codebrauer.github.io/100daysofcode/
+
 A repo with 100 daily small projects (from 2017-01-01 till 2017-04-17) - every day a project!
 
 Goal: Get a better coder, face up to new challenges, improve skills!
