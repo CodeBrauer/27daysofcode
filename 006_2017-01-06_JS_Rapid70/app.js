@@ -73,6 +73,7 @@
             clearInterval(this.countdown);
             this.numbersEl.classList.add('hidden');
             this.info.classList.add('hidden');
+            this.timer.innerHTML   = '0.0s';
             this.heading.innerHTML = 'Gameover!';
             this.heading.classList.remove('vhidden');
 
