@@ -51,6 +51,7 @@
 
         this.updateTimer = function() {
             if (parseFloat(this.timer.innerHTML).toFixed(1) === '1.0') {
+                this.timer.innerHTML = '0.0s';
                 this.gameover();return;
             }
             this.timer.innerHTML = (parseFloat(this.timer.innerHTML) - .1).toFixed(1) + 's';
@@ -73,6 +74,7 @@
             clearInterval(this.countdown);
             this.numbersEl.classList.add('hidden');
             this.info.classList.add('hidden');
+
             this.heading.innerHTML = 'Gameover!';
             this.heading.classList.remove('vhidden');
 
