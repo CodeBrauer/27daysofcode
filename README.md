@@ -6,6 +6,10 @@ A repo with 100 daily small projects (from 2017-01-01 till 2017-04-17) - every d
 
 Goal: Get a better coder, face up to new challenges, improve skills!
 
+## Day 009 (JS)
+
+[[Docs]](https://codebrauer.github.io/100daysofcode/009_2017-01-09_JS_Learning-ES6) - Today I started learning ES6 - No code today - just some resources.
+
 ## Day 008 (JS)
 
 [[Demo]](https://codebrauer.github.io/100daysofcode/008_2017-01-08_JS_HTML-Table-to-CSV) - Save a HTML table as CSV file.
