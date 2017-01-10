@@ -2,7 +2,7 @@
 
 $stdin = file_get_contents('php://stdin');
 
-// remove Remove Ansi Escape 
+// remove ANSI escape
 $stdin = preg_replace('/\x1b(\[|\(|\))[;?0-9]*[0-9A-Za-z]/', '', $stdin);
 $stdin = preg_replace('/\x1b(\[|\(|\))[;?0-9]*[0-9A-Za-z]/', '', $stdin);
 $stdin = preg_replace('/[\x03|\x1a]/', '', $stdin);
