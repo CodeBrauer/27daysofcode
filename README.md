@@ -6,6 +6,10 @@ A repo with 100 daily small projects (from 2017-01-01 till 2017-04-17) - every d
 
 Goal: Get a better coder, face up to new challenges, improve skills!
 
+## Day 011 (CSS)
+
+[[Demo]](https://codebrauer.github.io/100daysofcode/011_2017-01-11_CSS_MobileLayout/) - Just played around to make a simple mobile layout.
+
 ## Day 010 (PHP)
 
 [[Demo]](https://cloud.githubusercontent.com/assets/2059754/21824272/e234c63e-d77e-11e6-8dce-fdf4a537eb57.gif) - Pipe any output from the shell to my smartphone with the Pushbullet API.
