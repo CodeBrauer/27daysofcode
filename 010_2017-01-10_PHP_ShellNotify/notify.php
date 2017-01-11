@@ -1,3 +1,4 @@
+#!/usr/bin/php
 <?php
 
 $stdin = file_get_contents('php://stdin');
