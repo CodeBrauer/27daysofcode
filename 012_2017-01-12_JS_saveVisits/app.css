@@ -1,0 +1,55 @@
+body {
+  background: #6ca;
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+code {
+  background: #eee;
+  padding: 2px 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+h1,h2 {
+  font-family: 'Old Standard TT', serif;
+}
+
+.wrap {
+  background: #fff;
+  height: 600px;
+  width: 100%;
+  overflow-y: scroll;
+  max-width: 600px;
+  margin: 60px auto 30px;
+  padding: 1px 20px;
+  border-radius: 4px;
+  box-shadow: 0 3px 8px rgba(22,22,22,.3);
+}
+
+
+ul, li {
+  list-style: square;
+}
+
+a {
+  color: #000;
+}
+
+a.visited {
+  position: relative;
+  color: #ccc;
+  text-decoration: line-through;
+  padding-left: 15px;
+}
+
+a.visited:before {
+  content: "\2713 ";
+  position: absolute;
+  left: 0;
+  top: -2px;
+}

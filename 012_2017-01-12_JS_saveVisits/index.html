@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Save link visits in localStorage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="theme-color" content="#66ccaa">
+    
+    <link rel="stylesheet prefetch" href="//fonts.googleapis.com/css?family=Old+Standard+TT|Raleway:300">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="wrap">
+        <h1>Style visited links with localStorage</h1>
+        <h2>Why?</h2>
+        <p>
+            Since browsers allow only very basic CSS on <code>:visited</code> I created this way to check a user has clicked a link. If he clicks on any link, that has the class <code>.trackVisit</code> the complete href is saved in an array in localStorage.
+            On each page visit and click on a link the script adds the class <code>.visited</code> so we can style it however we want.
+        </p>
+        <h2>Demo Links: Repo services</h2>
+        <p>
+            The links have <code>e.preventDefault();</code> - so you can click them hassle free ;)
+        </p>
+        <ul>
+            <li><a class="trackVisit" target="_blank" href="https://github.com">GitHub</a></li>
+            <li><a class="trackVisit" target="_blank" href="https://gitlab.com/explore">GitLab</a></li>
+            <li><a class="trackVisit" target="_blank" href="https://www.codeplex.com/">CodePlex</a></li>
+            <li><a class="trackVisit" target="_blank" href="https://bitbucket.org/">Bitbucket</a></li>
+        </ul>
+        <button>Reset</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
