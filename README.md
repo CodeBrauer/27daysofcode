@@ -6,6 +6,10 @@ A repo with 100 daily small projects (from 2017-01-01 till 2017-04-17) - every d
 
 Goal: Get a better coder, face up to new challenges, improve skills!
 
+## Day 013 (JS)
+
+[[Demo]](https://codebrauer.github.io/100daysofcode/013_2017-01-13_JS_SequelPaste/) - Coded a script that formats mysql-strings for Sequel Pro.
+
 ## Day 012 (JS)
 
 [[Demo]](https://codebrauer.github.io/100daysofcode/012_2017-01-12_JS_saveVisits/) - Better styling for `:visited` links.
