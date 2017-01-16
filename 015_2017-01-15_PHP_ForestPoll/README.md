@@ -1,4 +1,4 @@
-# #015 2017-01-15: PHP Forest
+# #015 2017-01-15: PHP ForestPoll
 
 Built a [Strawpoll](http://strawpoll.me) clone in PHP.
 
