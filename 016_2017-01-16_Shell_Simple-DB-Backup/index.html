@@ -1,0 +1,24 @@
+<!DOCTYPE html><html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Simple DB Backup Script</title>
+    <meta name="theme-color" content="#666666">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Overpass+Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Built a simple database backup script</h1>
+        <p>
+            Currently in use on one of my test servers. But have also a modified version running on my MacBook, if things go terribly wrong. So instead <code>-mtime +30</code> I use <code>-mmin +4320</code> (3 days) and extented the <code>DATE_TODAY</code> variable. So I have now always a backup of at least 3 days (every 15 minutes) of my MacBook saved on my NAS. (Of cause only if my MacBook is connected to my home network).
+        </p>
+        <script src="https://gist.github.com/CodeBrauer/2e1e392c0622f44b2aac47f257ff8c20.js"></script>
+    </div>
+
+    <script src="https://cdn.rawgit.com/CodeBrauer/ebf5d310e4703b1186e7384ca1e1405d/raw/c5c1e53a82ae8370979007f8db345870e1782b78/githubcorner.js"></script>
+    <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-59784112-5', 'auto');ga('send', 'pageview');</script>
+</body>
+
+</html>

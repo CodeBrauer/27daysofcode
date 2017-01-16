@@ -6,6 +6,10 @@ A repo with 100 daily small projects (from 2017-01-01 till 2017-04-17) - every d
 
 Goal: Get a better coder, face up to new challenges, improve skills!
 
+## Day 016 (Shell)
+
+[[Script]](https://codebrauer.github.io/100daysofcode/016_2017-01-16_Shell_Simple-DB-Backup) - Coded a shellscript that backups all mysql databases, compress it and deletes old backups.
+
 ## Day 015 (PHP)
 
 [[Demo]](https://codebrauer.github.io/100daysofcode/015_2017-01-15_PHP_ForestPoll) - Built a [Strawpoll](http://strawpoll.me) clone in PHP.

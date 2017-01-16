@@ -1,0 +1,21 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Overpass Mono', sans-serif;
+    background: #fafafa;
+    color: #222;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+code {
+    font-family: 'Overpass Mono', sans-serif;
+    background: #ddd;
+    padding: 0 5px;
+    border-radius: 3px;
+}
