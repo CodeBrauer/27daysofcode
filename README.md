@@ -6,6 +6,10 @@ A repo with 100 daily small projects (from 2017-01-01 till 2017-04-17) - every d
 
 Goal: Get a better coder, face up to new challenges, improve skills!
 
+## Day 018 (CSS/JS)
+
+New Project Index. [Check it out!](https://codebrauer.github.io/100daysofcode/018_2017-01-18_CSS_NewIndex)
+
 ## Day 017
 
 Sorry - today was very tough day. This is a placeholder for a future project.
