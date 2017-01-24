@@ -6,9 +6,9 @@ A repo with 100 daily small projects (from 2017-01-01 till 2017-04-17) - every d
 
 Goal: Get a better coder, face up to new challenges, improve skills!
 
-## Short update!
+## Day 020 (JS)
 
-Currently I'm ill, so it's hard to focus on code. Project needs to be paused, I hope I will continue on monday (2017-01-23).
+[[Demo]](https://codebrauer.github.io/100daysofcode/020_2017-01-23_JS_nthChildTester) - Coded a nth child tester page.
 
 ## Day 019 (PHP)
 

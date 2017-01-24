@@ -1,0 +1,66 @@
+* {box-sizing: border-box;}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+}
+#sidebar {
+    position: fixed;
+    float: left;
+    width: 20vw;
+    height: 100vh;
+    background-color: #32B67A;
+    color: #fff;
+}
+#sidebar .logo {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    border-bottom: 2px solid;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+#testarea {
+    float: left;
+    margin-left: 20vw;
+    width: 80vw;
+    min-height: 100vh;
+    padding: 20px;
+}
+#testarea div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    float: left;
+    background-color: #eee;
+    margin: 3px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.group {
+    width: calc(100% - 30px);
+    margin: 15px 0 0 15px;
+}
+
+.group label {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.group input[type="text"], .group input[type="number"] {
+    width: 100%;
+    margin-right: 10px;
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+    text-align: right;
+}
+
+input[type="radio"] + label {
+    display: inline-block;
+}
