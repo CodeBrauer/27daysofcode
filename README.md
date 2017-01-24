@@ -48,7 +48,7 @@ Sorry - today was very tough day. This is a placeholder for a future project.
 
 ## Day 010 (PHP)
 
-[[Demo]](https://cloud.githubusercontent.com/assets/2059754/21824272/e234c63e-d77e-11e6-8dce-fdf4a537eb57.gif) - Pipe any output from the shell to my smartphone with the Pushbullet API.
+[[Demo]](https://cloud.githubusercontent.com/assets/2059754/21824272/e234c63e-d77e-11e6-8dce-fdf4a537eb57.gif) - Pipe any output from the shell to your smartphone with the Pushbullet API.
 
 ## Day 009 (JS)
 

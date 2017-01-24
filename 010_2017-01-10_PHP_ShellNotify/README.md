@@ -1,6 +1,6 @@
 # #010 2017-01-10: ShellNotify
 
-Pipe any output from the shell to my smartphone with the Pushbullet API. If you want to use it for yourself you just need to 
+Pipe any output from the shell to your smartphone with the Pushbullet API. If you want to use it for yourself you just need to 
 set the `$config['access_token']`.
 
 You can get the token [here](https://www.pushbullet.com/#settings/account).
