@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "inquirer": "^3.0.1",
+    "nightmare": "^2.9.1"
+  }
+}

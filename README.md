@@ -6,6 +6,10 @@ A repo with 100 daily small projects (from 2017-01-01 till 2017-04-17) - every d
 
 Goal: Get a better coder, face up to new challenges, improve skills!
 
+## Day 021 (JS)
+
+[[Demo/Docs]](https://codebrauer.github.io/100daysofcode/021_2017-01-24_JS_GitHub-Trending-CLI-Client) - A simple node powered client for GitHub Trending.
+
 ## Day 020 (JS)
 
 [[Demo]](https://codebrauer.github.io/100daysofcode/020_2017-01-23_JS_nthChildTester) - Coded a nth child tester page.
