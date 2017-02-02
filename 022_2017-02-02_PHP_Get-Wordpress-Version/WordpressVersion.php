@@ -37,7 +37,7 @@ class WordpressVersion
         $feedsource    = self::getSource($url . '/feed/');
         $feedgenerator = preg_grep("/<generator>/i", explode("\n", $feedsource));
         if (!empty($feedgenerator)) {
-            preg_match("/\d+(\.\d+(\.\d+)?)?/i", array_values($generator)[0], $out);
+            preg_match("/\d+(\.\d+(\.\d+)?)?/i", array_values($feedgenerator)[0], $out);
             if (isset($out[0])) {
                 return trim($out[0]);
             }
