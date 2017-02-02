@@ -9,4 +9,4 @@ Backend pure PHP - Frontend just intercoolerjs!
 
 **Demo:**
 
-<http://get-wordpress-version.codebrauer.com/>
+<https://get-wordpress-version.codebrauer.com/>
