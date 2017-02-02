@@ -8,7 +8,11 @@ Goal: Get a better coder, face up to new challenges, improve skills!
 
 ## Short update
 
-Currently I can't code everyday, because of my job & gym - I will try to keep up my streak as long as possible. But after 10h of code in the office there must be other things as code at home.
+Currently I can't push code everyday, because of my job & gym - I will try to push as often as possible.
+
+## Day 022 (PHP)
+
+[[Demo]](https://codebrauer.github.io/100daysofcode/022_2017-02-02_PHP_Get-Wordpress-Version) -  Get Wordpress Version by URL
 
 ## Day 021 (JS)
 
