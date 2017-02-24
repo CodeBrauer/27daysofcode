@@ -10,6 +10,14 @@ Goal: Get a better coder, face up to new challenges, improve skills!
 
 Currently I can't push code everyday, because of my job & gym - I will try to push as often as possible.
 
+## Day 024 (JS)
+
+[[Demo]](https://codebrauer.github.io/100daysofcode/024_2017-02-24_JS_Web-Screenshot/) - Take a screenshot directly on the website.
+
+## Day 023 (JS)
+
+[[Demo]](https://codebrauer.github.io/100daysofcode/023_2017-02-13_JS_RegExr-Embed/) - Gist like regexr.com embed script.
+
 ## Day 022 (PHP)
 
 [[Demo]](https://codebrauer.github.io/100daysofcode/022_2017-02-02_PHP_Get-Wordpress-Version) -  Get Wordpress Version by URL
