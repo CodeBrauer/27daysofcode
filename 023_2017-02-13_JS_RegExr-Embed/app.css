@@ -1,0 +1,53 @@
+.regexr-embed-container {
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    direction: ltr;
+    background: #fff;
+}
+
+.regexr-embed-header {
+    background: #6cf;
+    padding: 4px 10px;
+    position: relative;
+}
+
+.regexr-embed-header::after {
+    content: 'hosted by regexr.com';
+    font-size: 10px;
+    position: absolute;
+    top: 5px;
+    right: 9px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.regexr-embed-header a {
+    color: #333;
+}
+
+.regexr-embed-regex-display {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: pre;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    font-size: 12px;
+    padding: 10px 3px;
+    border-bottom: 2px solid #6cf;
+}
+
+.regexr-embed-container pre {
+    font-family: 'Source Code Pro', monospace;
+    margin: 0;
+    font-size: 12px;
+    padding: 9px 10px;
+    overflow: scroll;
+}
+
+.regexr-embed-container mark {
+    background-color: #6cf;
+}
+
+.green { color: green; }
