@@ -5,5 +5,5 @@ You want to embed regexr.com snippets? I build a gist like regexr.com embed scri
 Example usage:
 
 ```html
-<script src="https://goo.gl/N3VdTT" data-id="3f9da"></script>
+<script src="https://goo.gl/xuwBhc" data-id="3f9da"></script>
 ```
