@@ -1,0 +1,8 @@
+{
+    "require": {
+        "digitalnature/php-ref": "^1.2",
+        "catfan/medoo": "^1.2",
+        "tedivm/fetch": "^0.7.1",
+        "vlucas/phpdotenv": "^2.4"
+    }
+}
