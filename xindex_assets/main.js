@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
         var projectLangs = {};
         for (var i = 0; i < data.length; i++) {
             element = data[i];
-            if (element.type === 'dir') {
+            if (element.type === 'dir' && element.name !== 'xindex_assets') {
                 var parts = element.path.split('_');
                 var html = '<div class="day day-'+parts[0]+'" data-lang="'+parts[2]+'">\
                 <span class="lang lang-'+parts[2]+'">'+parts[2]+'</span>\
