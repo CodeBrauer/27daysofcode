@@ -3,63 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>#100DaysOfCode by @CodeBrauer</title>
+    
     <meta name="theme-color" content="#000000">
     <meta name="google-site-verification" content="u-3oVKcSD1UFr-KbXwGCXvAJmkwaK7xQaBUXEkGAxog" />
+    
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
     <link href="//fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" rel="stylesheet">
     <link href="//cdnjs.cloudflare.com/ajax/libs/izimodal/1.4.2/css/iziModal.min.css" rel="stylesheet">
-    <style type="text/css">
-        ::-moz-selection{color:#fff;background:#AB47BC}::selection{color:#fff;background:#AB47BC}*{box-sizing:border-box}body{font-family:'Montserrat Alternates',sans-serif;background-color:#fafafa;padding:0;margin:0}iframe{border:none}h1{text-align:center;font-size:50px}.day{width:100%;height:100px;background:#000;color:#fff;display:flex;align-items:center;position:relative}.day::after{content:'';position:absolute;width:100%;height:6px;background:rgba(255,255,255,0.3);bottom:0;left:0}.day span{display:flex;width:25%;height:100%;align-items:center;justify-content:center;font-family:'Montserrat Alternates',sans-serif}span.lang{font-size:32px}span.num{font-size:32px}span.num::before{content:'#'}span.date{padding-top:5px;background-color:#333;text-align:center;font-size:16px;line-height:1.4}span.title{width:90%;font-size:26px;justify-content:flex-start;padding-left:30px}.day button{font-family:'Montserrat Alternates',sans-serif;width:290px;display:inline-block;height:50%;margin-right:15px;border:3px solid #fff;background:none;color:#fff;font-size:16px;cursor:pointer;outline:none}.day button i{font-size:18px}.day button a{display:block;width:100%;color:#fff;text-decoration:none;padding:10px}.day button:hover{background-color:#fff;color:#000}.day button:hover a{color:#000}@media screen and (max-width: 930px){.day span{font-size:20px}.day span.date{font-size:14px}i{display:none}}span.lang-JS{background-color:#F0DB4F;color:#323330}span.lang-PHP{background-color:#8892BF;color:#222530}span.lang-CSS{background-color:#29ABE2;color:#FEFEFE}span.lang-Shell{background-color:#222;color:#21D725}span.lang-TXT{background-color:#999;color:#555}.day:nth-child(1) .num{background-color:#e05452}.day:nth-child(2) .num{background-color:#e05652}.day:nth-child(3) .num{background-color:#e05952}.day:nth-child(4) .num{background-color:#e05b52}.day:nth-child(5) .num{background-color:#e05e52}.day:nth-child(6) .num{background-color:#e06052}.day:nth-child(7) .num{background-color:#e06252}.day:nth-child(8) .num{background-color:#e06552}.day:nth-child(9) .num{background-color:#e06752}.day:nth-child(10) .num{background-color:#e06952}.day:nth-child(11) .num{background-color:#e06c52}.day:nth-child(12) .num{background-color:#e06e52}.day:nth-child(13) .num{background-color:#e07152}.day:nth-child(14) .num{background-color:#e07352}.day:nth-child(15) .num{background-color:#e07552}.day:nth-child(16) .num{background-color:#e07852}.day:nth-child(17) .num{background-color:#e07a52}.day:nth-child(18) .num{background-color:#e07c52}.day:nth-child(19) .num{background-color:#e07f52}.day:nth-child(20) .num{background-color:#e08152}.day:nth-child(21) .num{background-color:#e08452}.day:nth-child(22) .num{background-color:#e08652}.day:nth-child(23) .num{background-color:#e08852}.day:nth-child(24) .num{background-color:#e08b52}.day:nth-child(25) .num{background-color:#e08d52}.day:nth-child(26) .num{background-color:#e08f52}.day:nth-child(27) .num{background-color:#e09252}.day:nth-child(28) .num{background-color:#e09452}.day:nth-child(29) .num{background-color:#e09752}.day:nth-child(30) .num{background-color:#e09952}.day:nth-child(31) .num{background-color:#e09b52}.day:nth-child(32) .num{background-color:#e09e52}.day:nth-child(33) .num{background-color:#e0a052}.day:nth-child(34) .num{background-color:#e0a352}.day:nth-child(35) .num{background-color:#e0a552}.day:nth-child(36) .num{background-color:#e0a752}.day:nth-child(37) .num{background-color:#e0aa52}.day:nth-child(38) .num{background-color:#e0ac52}.day:nth-child(39) .num{background-color:#e0ae52}.day:nth-child(40) .num{background-color:#e0b152}.day:nth-child(41) .num{background-color:#e0b352}.day:nth-child(42) .num{background-color:#e0b652}.day:nth-child(43) .num{background-color:#e0b852}.day:nth-child(44) .num{background-color:#e0ba52}.day:nth-child(45) .num{background-color:#e0bd52}.day:nth-child(46) .num{background-color:#e0bf52}.day:nth-child(47) .num{background-color:#e0c152}.day:nth-child(48) .num{background-color:#e0c452}.day:nth-child(49) .num{background-color:#e0c652}.day:nth-child(50) .num{background-color:#e0c952}.day:nth-child(51) .num{background-color:#e0cb52}.day:nth-child(52) .num{background-color:#e0cd52}.day:nth-child(53) .num{background-color:#e0d052}.day:nth-child(54) .num{background-color:#e0d252}.day:nth-child(55) .num{background-color:#e0d552}.day:nth-child(56) .num{background-color:#e0d752}.day:nth-child(57) .num{background-color:#e0d952}.day:nth-child(58) .num{background-color:#e0dc52}.day:nth-child(59) .num{background-color:#e0de52}.day:nth-child(60) .num{background-color:#e0e052}.day:nth-child(61) .num{background-color:#dee052}.day:nth-child(62) .num{background-color:#dce052}.day:nth-child(63) .num{background-color:#d9e052}.day:nth-child(64) .num{background-color:#d7e052}.day:nth-child(65) .num{background-color:#d5e052}.day:nth-child(66) .num{background-color:#d2e052}.day:nth-child(67) .num{background-color:#d0e052}.day:nth-child(68) .num{background-color:#cde052}.day:nth-child(69) .num{background-color:#cbe052}.day:nth-child(70) .num{background-color:#c9e052}.day:nth-child(71) .num{background-color:#c6e052}.day:nth-child(72) .num{background-color:#c4e052}.day:nth-child(73) .num{background-color:#c1e052}.day:nth-child(74) .num{background-color:#bfe052}.day:nth-child(75) .num{background-color:#bde052}.day:nth-child(76) .num{background-color:#bae052}.day:nth-child(77) .num{background-color:#b8e052}.day:nth-child(78) .num{background-color:#b6e052}.day:nth-child(79) .num{background-color:#b3e052}.day:nth-child(80) .num{background-color:#b1e052}.day:nth-child(81) .num{background-color:#aee052}.day:nth-child(82) .num{background-color:#ace052}.day:nth-child(83) .num{background-color:#aae052}.day:nth-child(84) .num{background-color:#a7e052}.day:nth-child(85) .num{background-color:#a5e052}.day:nth-child(86) .num{background-color:#a3e052}.day:nth-child(87) .num{background-color:#a0e052}.day:nth-child(88) .num{background-color:#9ee052}.day:nth-child(89) .num{background-color:#9be052}.day:nth-child(90) .num{background-color:#99e052}.day:nth-child(91) .num{background-color:#97e052}.day:nth-child(92) .num{background-color:#94e052}.day:nth-child(93) .num{background-color:#92e052}.day:nth-child(94) .num{background-color:#8fe052}.day:nth-child(95) .num{background-color:#8de052}.day:nth-child(96) .num{background-color:#8be052}.day:nth-child(97) .num{background-color:#88e052}.day:nth-child(98) .num{background-color:#86e052}.day:nth-child(99) .num{background-color:#84e052}.day:nth-child(100) .num{background-color:#81e052}.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}
-    </style>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" rel="stylesheet" >
+    <link href="_index_assets/style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
     <a href="https://github.com/CodeBrauer/100daysofcode" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#000000; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
 
+    <div class="filters">
+        <label for="sort-asc"><input type="radio" name="sorting" id="sort-asc" checked> Oldest first</label>
+        <label for="sort-desc"><input type="radio" name="sorting" id="sort-desc"> Newest first</label>
+        <br>
+        <label for="filter-lang">Filter by language</label>
+        <select name="filter-lang">
+            <option value="all">Show all</option>
+        </select>
+    </div>
     <h1>#100DaysOfCode by @CodeBrauer</h1>
-    <div class="days"></div>
+    <div class="days">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="white">
+            <path style="fill:#ccc" opacity=".25" d="M16 0 A16 16 0 0 0 16 32 A16 16 0 0 0 16 0 M16 4 A12 12 0 0 1 16 28 A12 12 0 0 1 16 4"/>
+            <path style="fill: #000;" d="M16 0 A16 16 0 0 1 32 16 L28 16 A12 12 0 0 0 16 4z">
+                <animateTransform attributeName="transform" type="rotate" from="0 16 16" to="360 16 16" dur="0.8s" repeatCount="indefinite" />
+            </path>
+        </svg>
+    </div>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/izimodal/1.4.2/js/iziModal.min.js"></script>
-    <script>
-        jQuery(document).ready(function($) {
-            $.getJSON('https://api.github.com/repos/CodeBrauer/100daysofcode/contents/', function loadProjects(data) {
-                data.forEach(function(element) {
-                    if (element.type === 'dir') {
-                        var parts = element.path.split('_');
-                        var html = '<div class="day day-'+parts[0]+'">\
-                        <span class="lang lang-'+parts[2]+'">'+parts[2]+'</span>\
-                        <span class="num">'+parts[0]+'</span>\
-                        <span class="date">'+parts[1]+'</span>\
-                        <span class="title">'+parts[3].replace(/-/g, ' ')+'</span>\
-                        <button class="demo"><i class="icon-magnifier"></i> Demo</button>\
-                        <button><a href="https://github.com/CodeBrauer/100daysofcode/tree/master/'+element.path+'/"><i class="icon-social-github"></i> Sources</a></button>\
-                        <div id="day-'+parts[0]+'"></div>\
-                    </div>';
-                    $('.days').append(html);
-                    $('#day-'+parts[0]).iziModal({
-                        title: 'Day '+parts[0],
-                        subtitle: parts[1],
-                        headerColor: '#000000',
-                        theme: 'dark',
-                        width: '80%',
-                        iframe: true,
-                        iframeHeight: 600,
-                        iframeURL: 'https://codebrauer.github.io/100daysofcode/'+element.path+'/',
-                        navigateCaption: true,
-                        navigateArrows: true,
-                        history: true,
-                        fullscreen: true,
-                        group: 'projects',
-                    });
-                    $('.day-'+parts[0]+' button.demo').bind('click', function() {
-                        $('#day-'+parts[0]).iziModal('open');
-                    });
-                }
-            });
-            });
-        });
-    </script>
+    <script src="_index_assets/main.js"></script>
 
     <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-59784112-5', 'auto');ga('send', 'pageview');</script>
 </body>
