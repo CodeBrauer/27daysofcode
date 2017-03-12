@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="theme-color" content="#4285F4">
+
+    <title>Wikipedia Translator</title>
+
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="app.css">
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="page-title">
+            <h1>Wikipedia Translator</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="alert alert-danger" style="display: none;"></div>
+                <div class="form-group">
+                    <label for="string">String to translate:</label>
+                    <input type="text" name="string" id="string" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="string">Input language:</label>
+                    <input type="text" name="lang" id="lang" class="form-control">
+                </div>
+                <button type="button" class="btn btn-primary pull-right">Translate</button>
+            </div>
+            <div class="col-md-8">
+                <div class="form-group">
+                    <label for="string">Filter by language/translation:</label>
+                    <input type="search" id="jetsSearch" class="form-control">
+                </div>
+                <div class="result">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th width="50%">Language</th>
+                                <th>Translation</th>
+                            </tr>
+                        </thead>
+                        <tbody id="jetsContent"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jets/0.14.0/jets.min.js"></script>
+    <script src="app.js"></script>
+
+    <script src="https://cdn.rawgit.com/CodeBrauer/ebf5d310e4703b1186e7384ca1e1405d/raw/c5c1e53a82ae8370979007f8db345870e1782b78/githubcorner.js"></script>
+    <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-59784112-5', 'auto');ga('send', 'pageview');</script>
+</body>
+</html>

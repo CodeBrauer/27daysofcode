@@ -10,6 +10,14 @@ Goal: Get a better coder, face up to new challenges, improve skills!
 
 Currently I can't push code everyday, because of my job & gym - I will try to push as often as possible.
 
+## Day 026 (PHP)
+
+[[Demo]](https://codebrauer.github.io/100daysofcode/026_2017-03-12_JS_Wikipedia-Translator) - Translates a string from a given language to any available language on Wikipedia using its API.
+
+## Day 025 (PHP)
+
+[[Demo]](https://github.com/CodeBrauer/100daysofcode/tree/master/025_2017-03-05_PHP_IMAP-Test/) - Wanted to test how hard it is to receive emails with PHP from an IMAP server.
+
 ## Day 024 (JS)
 
 [[Demo]](https://codebrauer.github.io/100daysofcode/024_2017-02-24_JS_Web-Screenshot/) - Take a screenshot directly on the website.
