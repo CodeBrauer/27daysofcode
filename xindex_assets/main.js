@@ -13,7 +13,7 @@ jQuery(document).ready(function($) {
                 <span class="lang lang-'+parts[2]+'">'+parts[2]+'</span>\
                 <span class="num">'+parts[0]+'</span><span class="date">'+parts[1]+'</span><span class="title">'+parts[3].replace(/-/g, ' ')+'</span>\
                 <a href="//codebrauer.github.io/100daysofcode/'+element.path+'/" class="demo-mobile-link"><i class="demo-mobile icon-eye"></i></a>\
-                <button class="demo"><i class="icon-magnifier"></i> Demo</button>\
+                <button class="demo" data-izimodal-open="day-'+parts[0]+'"><i class="icon-magnifier"></i> Demo</button>\
                 <button><a href="https://github.com/CodeBrauer/100daysofcode/tree/master/'+element.path+'/"><i class="icon-social-github"></i> Sources</a></button>\
                 <div id="day-'+parts[0]+'"></div>\
                 </div>';
@@ -27,9 +27,6 @@ jQuery(document).ready(function($) {
                     navigateCaption: true, navigateArrows: true,
                     history: true, fullscreen: true,
                     group: 'projects',
-                });
-                $('.day-'+parts[0]+' button.demo').bind('click', function() {
-                    $('#day-'+parts[0]).iziModal('open');
                 });
                 (parts[2] in projectLangs) ? projectLangs[parts[2]] += 1 : projectLangs[parts[2]] = 1;
             }
