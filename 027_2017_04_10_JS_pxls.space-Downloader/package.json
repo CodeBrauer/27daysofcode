@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "moment": "^2.18.1",
+    "nightmare": "^2.10.0"
+  }
+}
