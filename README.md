@@ -12,7 +12,7 @@ Currently I can't push code everyday, because of my job & gym - I will try to pu
 
 ## Day 027 (JS)
 
-[[Demo]](https://codebrauer.github.io/100daysofcode/027_2017_04_10_JS_pxls.space-Downloader) - Downloads current canvas from pxls.space
+[[Demo]](https://codebrauer.github.io/100daysofcode/027_2017-04-10_JS_pxls.space-Downloader) - Downloads current canvas from pxls.space
 
 ## Day 026 (PHP)
 
