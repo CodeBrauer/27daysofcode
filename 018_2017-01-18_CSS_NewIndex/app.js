@@ -10,7 +10,7 @@ jQuery(document).ready(function($) {
                     <span class="date">'+parts[1]+'</span>\
                     <span class="title">'+parts[3].replace(/-/g, ' ')+'</span>\
                     <button class="demo"><i class="icon-magnifier"></i> Demo</button>\
-                    <button><a href="https://github.com/CodeBrauer/100daysofcode/tree/master/'+element.path+'/"><i class="icon-social-github"></i> Sources</a></button>\
+                    <button><a href="https://github.com/CodeBrauer/27daysofcode/tree/master/'+element.path+'/"><i class="icon-social-github"></i> Sources</a></button>\
                     <div id="day-'+parts[0]+'"></div>\
                 </div>';
                 $('.days').append(html);
@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
                     width: '80%',
                     iframe: true,
                     iframeHeight: 600,
-                    iframeURL: 'https://codebrauer.github.io/100daysofcode/'+element.path+'/',
+                    iframeURL: 'https://codebrauer.github.io/27daysofcode/'+element.path+'/',
                     navigateCaption: true,
                     navigateArrows: true,
                     history: true,

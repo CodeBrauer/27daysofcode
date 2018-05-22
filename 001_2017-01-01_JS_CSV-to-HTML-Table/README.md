@@ -2,4 +2,4 @@
 
 So this is a pretty simple one in vanilla JS.
 
-Demo: https://codebrauer.github.io/100daysofcode/001_2017-01-01_JS_CSV-to-HTML-Table/
+Demo: https://codebrauer.github.io/27daysofcode/001_2017-01-01_JS_CSV-to-HTML-Table/

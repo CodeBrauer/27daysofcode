@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Child Pages Widget
-Plugin URI:  https://github.com/CodeBrauer/100daysofcode
+Plugin URI:  https://github.com/CodeBrauer/27daysofcode
 Description: Displays the child pages of current page
 Version:     1.0
 Author:      CodeBrauer

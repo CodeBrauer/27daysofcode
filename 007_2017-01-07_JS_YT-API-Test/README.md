@@ -4,4 +4,4 @@ Today I just tested how to get the last 10 YouTube Videos from a specific channe
 
 Just tested [superagent](http://visionmedia.github.io/superagent/) for making ajax calls! Pretty simple and nice!
 
-**Demo:** <https://codebrauer.github.io/100daysofcode/007_2017-01-07_JS_YT-API-Test/>
+**Demo:** <https://codebrauer.github.io/27daysofcode/007_2017-01-07_JS_YT-API-Test/>

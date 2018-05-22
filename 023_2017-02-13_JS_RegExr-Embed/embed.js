@@ -22,7 +22,7 @@
     // add css <link rel="stylesheet" href="app.css">
     var cssLink = document.createElement('link');
     cssLink.setAttribute('rel', 'stylesheet');
-    cssLink.setAttribute('href', '//cdn.rawgit.com/CodeBrauer/100daysofcode/master/023_2017-02-13_JS_RegExr-Embed/app.css');
+    cssLink.setAttribute('href', '//cdn.rawgit.com/CodeBrauer/27daysofcode/master/023_2017-02-13_JS_RegExr-Embed/app.css');
     scriptEmbed.parentNode.insertBefore(cssLink, scriptEmbed.nextSibling);
 
     // add font

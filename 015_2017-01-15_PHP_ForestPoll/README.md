@@ -4,7 +4,7 @@ Built a [Strawpoll](http://strawpoll.me) clone in PHP.
 
 ## Demo
 
-<https://codebrauer.github.io/100daysofcode/015_2017-01-15_PHP_ForestPoll/>
+<https://codebrauer.github.io/27daysofcode/015_2017-01-15_PHP_ForestPoll/>
 
 ## Installation
 

@@ -9,4 +9,4 @@ Example usage:
 ```
 
 Demo: 
-<https://codebrauer.github.io/100daysofcode/023_2017-02-13_JS_RegExr-Embed/>
+<https://codebrauer.github.io/27daysofcode/023_2017-02-13_JS_RegExr-Embed/>

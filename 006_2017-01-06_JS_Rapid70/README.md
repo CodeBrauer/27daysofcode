@@ -12,4 +12,4 @@ Underscore.js is only included, because of the great shuffle function.
 _I don't know who was the original author of the game, so I linked both :)_
 
 
-**Demo:** <https://codebrauer.github.io/100daysofcode/006_2017_01_06_JS_Rapid70/>
+**Demo:** <https://codebrauer.github.io/27daysofcode/006_2017_01_06_JS_Rapid70/>

@@ -15,7 +15,7 @@ You can turn off your computer and the data is still saved in your browser.<br>J
 
 **Demo:**
 
-https://codebrauer.github.io/100daysofcode/003_2017-01-03_JS_Formsaver/
+https://codebrauer.github.io/27daysofcode/003_2017-01-03_JS_Formsaver/
 
 --
 

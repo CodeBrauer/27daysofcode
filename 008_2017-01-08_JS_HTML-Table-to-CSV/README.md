@@ -4,4 +4,4 @@ This script will search the table on the page, format all rows/cells into a CSV 
 
 In my test, the file can be opened correctly in Excel (v2011, macOS).
 
-**Demo:** <https://codebrauer.github.io/100daysofcode/008_2017-01-08_JS_HTML-Table-to-CSV>
+**Demo:** <https://codebrauer.github.io/27daysofcode/008_2017-01-08_JS_HTML-Table-to-CSV>

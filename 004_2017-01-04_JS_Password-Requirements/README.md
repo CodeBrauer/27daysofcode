@@ -36,7 +36,7 @@ Available attributes:
 
 **Demo:**
 
-https://codebrauer.github.io/100daysofcode/004_2017-01-04_JS_Password-Requirements/
+https://codebrauer.github.io/27daysofcode/004_2017-01-04_JS_Password-Requirements/
 
 --
 

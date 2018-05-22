@@ -10,4 +10,4 @@
 
 Built using [Leaflet](http://leafletjs.com/) & [maps.stamen.com](http://maps.stamen.com/)
 
-Demo: https://codebrauer.github.io/100daysofcode/002_2017-01-02_PHP_Photo-Map/
+Demo: https://codebrauer.github.io/27daysofcode/002_2017-01-02_PHP_Photo-Map/

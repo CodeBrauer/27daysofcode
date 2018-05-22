@@ -2,7 +2,7 @@
 
 **Demo:**
 
-https://codebrauer.github.io/100daysofcode/
+https://codebrauer.github.io/27daysofcode/
 
 --
 
